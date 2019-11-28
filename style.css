@@ -148,6 +148,7 @@ body{
     background-color: #c8cdd0;
     text-align: center;
     line-height: 60px;
+    margin-right: -3px;
 }
 #modest #socials a img{
     display: inline;
