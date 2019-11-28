@@ -1,0 +1,120 @@
+@font-face {
+    font-family: OpenSans;
+    src: url(fonts/OpenSans-Regular.ttf);
+  }
+  @font-face {
+    font-family: OpenSans-Bold;
+    src: url(fonts/OpenSans-Bold.ttf);
+  }
+  @font-face {
+    font-family: OpenSans-SemiBold;
+    src: url(fonts/OpenSans-SemiBold.ttf);
+  }
+  @font-face {
+    font-family: QuattrocentoSans-Blod;
+    src: url(fonts/QuattrocentoSans-Bold.ttf);
+  }
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: OpenSans, sans-serif;
+    font-weight: normal;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+body{
+    background: white;
+}
+
+/* Style Nav-menu */
+#nav{
+    height: 80px;
+    background-color: #1d2126;
+}
+#nav .row{
+    display: flex;
+    height: 80px;
+    line-height: 80px;
+    justify-content: space-between;
+}
+#nav ul li{
+ display: inline-block;
+ margin-left: 12px;
+}
+#nav ul a{
+    color: #a4aead;
+    font-family: OpenSans-SemiBold, sans-serif;
+    font-size: 14px;
+    height: 30px;
+    line-height: 30px;
+    text-transform: uppercase;
+    padding: 0px 12px;
+    border-radius: 3px;
+}
+#nav li:first-child a{
+    color: #23b7a4;
+    border: solid 2px #23b7a4;
+}
+#nav ul a:hover{
+    border: solid 2px #5b6168;
+    text-decoration: none;
+    padding: 0px 10px;
+}
+#nav ul li:first-child a:hover{
+    padding: 0px 12px;
+    color: #ffffff;
+    border: solid 2px #5b6168;
+    background: #23b7a4;
+}
+
+/* Style Header */
+#header{
+    background-color: #364057;
+    background-image: url(images/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 660px;
+    
+}
+#header>div>div>div{
+    margin-top:222px;
+}
+#header h1{
+    text-transform: uppercase;
+    font-size: 36px;
+    line-height: 42px;
+    color:white;
+    font-family: QuattrocentoSans-Blod,sans-serif;
+    margin-bottom: 24px;
+}
+#header p{
+    font-size: 16px;
+    line-height: 26px;
+    color: #ccd0d7;
+    margin-bottom: 25px;
+}
+#header #actions a{
+    display: inline-block;
+    height: 44px;
+    font-size: 14px;
+    line-height: 44px;
+    color:white;
+    font-family: QuattrocentoSans-Blod,sans-serif;
+    padding-left:24px;
+    padding-right:30px;
+    margin-right:10px;
+    border: solid 2px white;
+    border-radius: 5px;
+}
+#header #actions a:hover{
+    border: solid 2px #23b7a4;
+    border-radius: 5px;
+    background-color: #23b7a4;
+    text-decoration: none;
+}
